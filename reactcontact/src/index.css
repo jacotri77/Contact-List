@@ -1,0 +1,67 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
+*{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: normal;
+	list-style: none;
+}
+
+#container, #mainSection{
+	width: 400px;
+	margin: auto;
+	
+}
+
+#headings{
+	height: 55px;
+	width: 400px;
+	margin:auto;
+	font-size: 16px;
+	color:white;
+	line-height: 55px;
+	padding-left: 15px;
+	background: rgb(129,188,57);
+	border-bottom: 2px solid rgb(109,162,39);
+}
+
+#thumb{
+	height:40px;
+	width: 40px;
+	display: inline-block; 
+	float:left;
+	border-radius: 50%;
+	margin: 10px 30px 10px 0px;
+
+}
+
+ul{
+	padding-left: 0px;
+}
+ #peepLink{
+ 	display: inline-block;
+ 	margin: auto;
+ 	width: 400px;
+	height: 55px;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+	text-decoration: none;
+}
+
+h1{
+	margin:0;
+}
+
+#bigHead{
+	margin:auto;
+	width: 400px;
+	height: 200px;
+	background-color: rgb(167,208,118)
+}
+
+
