@@ -15,6 +15,16 @@ export default React.createClass({
 
     }
   },
+  capFirst(c) {
+
+  var a = c.split('')
+
+  a[0] = a[0].toUpperCase()
+
+  a.join('')
+
+  return a
+},
   brokeBack(e){
     e.preventDefault()
     this.props.history.goBack()
@@ -34,10 +44,10 @@ export default React.createClass({
         </div>
         <div id="mainBody">
           <ul>
-            <li><FaUser className="iconz"/>{this.state.contact.name.first} {this.state.contact.name.last}</li>
+            <li><FaUser className="iconz"/>{this.capFirst(this.state.contact.name.first)} {this.capFirst(this.state.contact.name.last)}</li>
             <li><FaEnvelope className="iconz"/>{this.state.contact.email}</li>
             <li><FaMobile className="iconz"/>{this.state.contact.cell}</li>
-            <li><FaGlobe className="iconz"/>{this.state.contact.location.city}, {this.state.contact.location.state}</li>
+            <li><FaGlobe className="iconz"/>{this.capFirst(this.state.contact.location.city)}, {this.capFirst(this.state.contact.location.state)}</li>
           </ul>
           </div>
       </div>
