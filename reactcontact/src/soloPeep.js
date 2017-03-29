@@ -1,7 +1,6 @@
 import React from 'react';
-import {BrowserRouter, Route, Link} from 'react-router-dom';
 import Users from './userId.json';
-import './index.css';
+import './css/index.css';
 
 
 
@@ -26,11 +25,11 @@ export default React.createClass({
    var FaEnvelope = require('react-icons/lib/fa/envelope')
    var FaMobile = require('react-icons/lib/fa/mobile')
    var FaGlobe = require('react-icons/lib/fa/globe')
-   var FaArrowLeft = require('react-icons/lib/fa/arrow-left')
+   var FaLongArrowLeft = require('react-icons/lib/fa/long-arrow-left')
     return (
      <div id="bigHead">
         <div className="photo">
-        <button id="backers" onClick={this.brokeBack}><FaArrowLeft /></button>
+        <button id="backers" onClick={this.brokeBack}><FaLongArrowLeft /></button>
           <img src={this.state.contact.picture.large} alt="#" id="larger"/>
         </div>
         <div id="mainBody">

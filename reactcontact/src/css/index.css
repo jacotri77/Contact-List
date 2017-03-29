@@ -21,7 +21,7 @@ html {
 #headings{
 	height: 55px;
 	width: 400px;
-	margin:auto;
+	margin:20px auto 0px;
 	font-size: 16px;
 	color:white;
 	line-height: 55px;
@@ -54,19 +54,21 @@ ul{
 	text-decoration: none;
 }
 
-h1{
-	margin:0;
+span{
+	margin:0px;
+	font-size:24px;
+	height:55px;
 }
 
 .photo, #mainBody{
-	margin:auto;
+	margin:0px auto;
 	width: 400px;
 	height: 200px;
 	
 }
 
 .photo{
-	background-color: rgb(167,208,118);
+	background-color: rgb(129,188,57);
 }
 
  #larger{
@@ -83,19 +85,24 @@ h1{
 	background-color: transparent;
 	border:none;
 	outline: none;
-	font-size: 18px;
+	font-size: 24px;
 }
 
 #backers:hover{
-	outline: 2px solid rgb(109,162,39);
+	outline: 1px solid rgb(109,162,39);
 }
 
 #mainBody li{
 	border-bottom: 1px solid #ccc;
 	margin-bottom:15px;
 	padding-bottom: 5px;
+	color:#000;
 }
 .iconz{
  	margin-right:10px;
  }
+
+a:link, a:visited, a:hover, a:active{
+	color:#777;
+}
 

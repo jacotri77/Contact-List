@@ -1,6 +1,6 @@
 import React from 'react';
 import Users from './userId.json'
-import {BrowserRouter, Route, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 
 export default React.createClass({
@@ -8,7 +8,7 @@ export default React.createClass({
 	return(
   <div id="container">
   	<div id="headings">
-    	<h1>My Peeps</h1>
+    	<span>My Peeps</span>
     </div>
     <div id="mainSection">
     <ul>
@@ -21,6 +21,8 @@ export default React.createClass({
   )
 }
 })
+
+
 
 
 
