@@ -64,23 +64,35 @@ ul{
 
 .photo{
 	background-color: rgb(129,188,57);
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 20px;
+	position: relative;
 }
 
  #larger{
- 	display: block;
- 	clear: both;
- 	height: 150px;
+ 	display: inline-block;
+ 	height: 160px;
  	width: 150px;
 	margin: auto;
 	text-align: center;
+	border-radius:50%;
 }
 #backers{
+	display: inline-block;
 	float: left;
 	clear:left;
 	background-color: transparent;
 	border:none;
 	outline: none;
 	font-size: 24px;
+	height:40px;
+	width:40px;
+	position:absolute;
+	top:5px;
+	left: 5px;
+	
+	
 }
 
 #backers:hover{
